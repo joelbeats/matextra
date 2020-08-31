@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
     width: 100vw;
     height: 10vh;
-    background-color: gray;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(#159450, rgb(15, 97, 42));
 }
 
 nav {
@@ -19,8 +22,9 @@ nav {
     margin: auto;
 }
 
-h1 {
+nav h1 {
     padding: 20px;
+    font-size: 2.5rem;
 }
 
 li {
@@ -31,5 +35,61 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2rem 0.2rem 0.3rem black;
+}
+
+a:hover {
+    color: orange;
+}
+
+.hero {
+    max-width: 100vw;
+    max-height: 90vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-content {
+    width: 50vw;
+    height: 90vh;
+    padding: 10% 0% 10% 3.5%;
+    background-color: rgb(147, 167, 148);
+}
+
+.hero-h1 {
+    font-size: 36px;
+    margin: 0 0 0 0
+}
+
+.hero-p {
+    font-size: 20px;
+}
+
+.hero-image {
+    width: 50%;
+    height: 90vh;
+    background: url('./img/mat.jpg') center;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inkopslista {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.inkopslista-h1 {
+    text-align: center;
+    padding-top: 7%;
 }

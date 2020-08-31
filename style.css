@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: 10vh;
+    margin: auto;
+}
+
+h1 {
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
